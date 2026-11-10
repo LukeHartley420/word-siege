@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Siege</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Word Siege</h1>
+<p class="hint">Enemy words march on your gate. Type them to destroy them before they break through.</p>
+<div id="hud">
+  <span>Gate <b id="hp"></b></span>
+  <span>Wave <b id="wave">1</b></span>
+  <span>Score <b id="score">0</b></span>
+  <span>Combo <b id="combo">0</b></span>
+  <span>Best <b id="best">0</b></span>
+</div>
+<canvas id="game" width="900" height="420" aria-label="Game area"></canvas>
+<p id="msg">Press Enter to start</p>
+<script src="game.js"></script>
+</body>
+</html>
